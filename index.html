@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portofolio Farhan Dwi Nugroho — profil, pendidikan, dan proyek." />
+  <title>Portofolio </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <div class="cursor" id="cursor"></div>
+
+  <nav id="nav">
+    <a href="#" class="brand">PORTOFOLIO</a>
+    <div class="nav-right">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#pendidikan">Pendidikan</a></li>
+        <li><a href="#proyek">Proyek</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+      <!-- Theme Toggle -->
+      <button class="theme-btn" id="themeBtn" aria-label="Toggle tema">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="5" />
+          <line x1="12" y1="1" x2="12" y2="3" />
+          <line x1="12" y1="21" x2="12" y2="23" />
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+          <line x1="1" y1="12" x2="3" y2="12" />
+          <line x1="21" y1="12" x2="23" y2="12" />
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+        </svg>
+      </button>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <section id="hero">
+      <div class="hero-inner">
+        <p class="hero-hi" data-reveal>Halo, saya</p>
+        <h1 data-reveal data-delay="60">
+          Farhan Dwi Nugroho
+        </h1>
+        <p class="hero-role" data-reveal data-delay="120">
+          <span id="typedText"></span><span class="cursor-blink">|</span>
+        </p>
+        <p class="hero-desc" data-reveal data-delay="180">
+          [Tulis satu kalimat singkat tentang diri Anda di sini.]
+        </p>
+        <div class="hero-btns" data-reveal data-delay="240">
+          <a href="#proyek" class="btn-fill">Lihat Proyek</a>
+          <a href="assets/cv.pdf" download class="btn-line">Unduh CV</a>
+        </div>
+      </div>
+
+      <div class="hero-aside" data-reveal data-delay="100">
+        <div class="avatar">
+          <img src="assets/profile.jpg" alt="Foto [farhan]">
+        </div>
+        <div class="aside-info">
+          <div class="ai-row">
+            <span class="ai-k">Status</span>
+            <span class="ai-v dot-green">Tersedia</span>
+          </div>
+          <div class="ai-row">
+            <span class="ai-k">Lokasi</span>
+            <span class="ai-v">Purbalingga, Indonesia</span>
+          </div>
+          <div class="ai-row">
+            <span class="ai-k">Email</span>
+            <span class="ai-v"><a href="mailto:farhannugroho04@gmail.com">Contact Me</a></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── TENTANG ── -->
+    <section id="tentang" class="sec">
+      <div class="sec-head" data-reveal>
+        <span class="sec-tag">01</span>
+        <h2>Tentang</h2>
+      </div>
+      <div class="tentang-body">
+        <div class="tentang-text" data-reveal>
+          <p>[Paragraf pertama — ceritakan siapa Anda, dari mana, dan apa yang sedang Anda kerjakan atau pelajari saat
+            ini. Gunakan bahasa yang natural.]</p>
+          <p>[Paragraf kedua — ceritakan minat atau hal yang Anda suka kerjakan di bidang ini.]</p>
+        </div>
+        <div class="tentang-detail" data-reveal data-delay="80">
+          <div class="td-row"><span>Nama</span><span>Farhan Dwi Nugroho</span></div>
+          <div class="td-row"><span>Jurusan</span><span>S1 Sistem Informasi</span></div>
+          <div class="td-row"><span>Universitas</span><span>Telkom University Purwokerto</span></div>
+          <div class="td-row"><span>Keahlian</span><span>Laravel</span></div>
+          <div class="td-row"><span>GitHub</span><span><a href="https://github.com/hannewbie"
+                target="_blank">@hannewbie</a></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PENDIDIKAN ── -->
+    <section id="pendidikan" class="sec sec-alt">
+      <div class="sec-head" data-reveal>
+        <span class="sec-tag">02</span>
+        <h2>Pendidikan</h2>
+      </div>
+
+      <div class="edu-list">
+        <div class="edu-card" data-reveal>
+          <div class="edu-left">
+            <span class="edu-yr">2022-2026</span>
+            <span class="badge-active">Lulus</span>
+          </div>
+          <div class="edu-right">
+            <h3>S1 Sistem Informasi</h3>
+            <p class="edu-inst">Telkom University Purwokerto</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROYEK ── -->
+    <section id="proyek" class="sec">
+      <div class="sec-head" data-reveal>
+        <span class="sec-tag">03</span>
+        <h2>Proyek</h2>
+      </div>
+
+      <div class="proyek-grid">
+
+        <article class="pcard" data-reveal>
+          <div class="pcard-img pcard-slider" id="slider1" onclick="cycleSlide('slider1')" title="Klik untuk ganti foto"
+            role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' ')cycleSlide('slider1')">
+            <img src="assets/proyek1/sertiino.png" alt="Sertifikat Innovillage" class="slide-img active" />
+            <img src="assets/proyek1/inno2.jpeg" alt="Foto Innovillage 2" class="slide-img" />
+            <img src="assets/proyek1/inno3.jpeg" alt="Foto Innovillage 3" class="slide-img" />
+            <img src="assets/proyek1/inno1.jpeg" alt="Foto Innovillage 1" class="slide-img" />
+            <div class="slide-dots">
+              <span class="dot active" data-i="0"></span>
+              <span class="dot" data-i="1"></span>
+              <span class="dot" data-i="2"></span>
+              <span class="dot" data-i="3"></span>
+            </div>
+          </div>
+          <div class="pcard-body">
+            <div class="pcard-meta">
+              <span class="ptag">Inovasi</span>
+              <span class="pyr">Innovillage 2023</span>
+            </div>
+            <h3>EcoFloat Farms "Pertanian Terapung Berbasis Aquaponik</h3>
+            <p>Lolos pendanaan Program Innovillage 2023 yang diselenggarakan oleh Telkom Indonesia melalui proyek
+              EcoFloat Farm: Pertanian Terapung Berbasis Aquaponik di Desa Pliken, Kabupaten Banyumas. Proyek ini
+              merupakan ekosistem pertanian cerdas yang menggabungkan panel surya dan sistem pemantauan IoT.</p>
+            <div class="pstack">
+              <span>Arduino</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="pcard" data-reveal data-delay="60">
+          <div class="pcard-img pcard-slider" id="slider2" onclick="cycleSlide('slider2')" title="Klik untuk ganti foto"
+            role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' ')cycleSlide('slider2')">
+            <img src="assets/proyek2/p2mw4.png" alt="Foto P2MW 1" class="slide-img active" />
+            <img src="assets/proyek2/p2mw.png" alt="Foto P2MW 2" class="slide-img" />
+            <img src="assets/proyek2/p2mw3.png" alt="Foto P2MW 3" class="slide-img" />
+            <img src="assets/proyek2/p2mw1.jpeg" alt="Foto P2MW 4" class="slide-img" />
+            <div class="slide-dots">
+              <span class="dot active" data-i="0"></span>
+              <span class="dot" data-i="1"></span>
+              <span class="dot" data-i="2"></span>
+              <span class="dot" data-i="3"></span>
+            </div>
+          </div>
+          <div class="pcard-body">
+            <div class="pcard-meta">
+              <span class="ptag">Web</span>
+              <span class="pyr">P2MW 2024</span>
+            </div>
+            <h3>QTime Outdoor</h3>
+            <p>Lolos pendanaan Program Pembinaan Mahasiswa Wirausaha (P2MW) 2024 melalui pengembangan
+              QTime Outdoor, platform penyewaan perlengkapan outdoor berbasis web.</p>
+            <div class="pstack">
+              <span>Wordpress</span><span>Midtrans </span>
+            </div>
+          </div>
+        </article>
+
+        <article class="pcard" data-reveal data-delay="120">
+          <div class="pcard-img pcard-slider" id="slider3" onclick="cycleSlide('slider3')" title="Klik untuk ganti foto"
+            role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' ')cycleSlide('slider3')">
+            <img src="assets/proyek3/witel1.png" alt="Foto Witel 1" class="slide-img active" />
+            <img src="assets/proyek3/witel.png" alt="Foto Witel 2" class="slide-img" />
+            <img src="assets/proyek3/witel2.jpeg" alt="Foto Witel 3" class="slide-img" />
+            <div class="slide-dots">
+              <span class="dot active" data-i="0"></span>
+              <span class="dot" data-i="1"></span>
+              <span class="dot" data-i="2"></span>
+            </div>
+          </div>
+          <div class="pcard-body">
+            <div class="pcard-meta">
+              <span class="ptag">Web</span>
+              <span class="pyr">2025</span>
+            </div>
+            <h3>Magang Telkom Witel Purwokerto</h3>
+            <p>Membangun Sistem Monitoring Dokumen Kontrak Kerja Berbasis Website</p>
+            <div class="pstack">
+              <span>Laravel</span><span>MySQL</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="pcard" data-reveal data-delay="60">
+          <div class="pcard-img pcard-slider" id="slider4" onclick="cycleSlide('slider4')" title="Klik untuk ganti foto"
+            role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' ')cycleSlide('slider4')">
+            <img src="assets/proyek4/magang.jpeg" alt="Foto Magang 1" class="slide-img active" />
+            <img src="assets/proyek4/magang1.png" alt="Foto Magang 2" class="slide-img" />
+            <img src="assets/proyek4/magang2.jpeg" alt="Foto Magang 3" class="slide-img" />
+            <div class="slide-dots">
+              <span class="dot active" data-i="0"></span>
+              <span class="dot" data-i="1"></span>
+              <span class="dot" data-i="2"></span>
+            </div>
+          </div>
+          <div class="pcard-body">
+            <div class="pcard-meta">
+              <span class="ptag">Web</span>
+              <span class="pyr">Magang BLUD UPT Teratai Mas Banyumas 2025</span>
+            </div>
+            <h3>MY BLUD VENUE</h3>
+            <p>Membangun Sistem Layanan Informasi & Sewa Lokasi Berbasis Website serta mendokumentasikan Hasil Analisis
+              Sistem</p>
+            <div class="pstack">
+              <span>Laravel</span><span>MySQL</span>
+            </div>
+            <div class="plinks">
+              <a href="https://bludpariwisata.com" target="_blank" rel="noopener">Demo ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="pcard" data-reveal data-delay="120">
+          <div class="pcard-img pcard-slider" id="slider5" onclick="cycleSlide('slider5')" title="Klik untuk ganti foto"
+            role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' ')cycleSlide('slider5')">
+            <img src="assets/proyek5/capstone2.png" alt="Foto Capstone 1" class="slide-img active" />
+            <img src="assets/proyek5/caps1.jpeg" alt="Foto Capstone 2" class="slide-img" />
+            <div class="slide-dots">
+              <span class="dot active" data-i="0"></span>
+              <span class="dot" data-i="1"></span>
+            </div>
+          </div>
+          <div class="pcard-body">
+            <div class="pcard-meta">
+              <span class="ptag">Web</span>
+              <span class="pyr">CAPSTONE PROJECT 2026</span>
+            </div>
+            <h3>BLUD Inventory</h3>
+            <p>Membangun sistem untuk mengelola pendataan inventaris, pergerakan stok, serta distribusi logistik
+              kebutuhan operasional
+              unit-unit destinasi Lokawisata di lingkungan BLUD</p>
+            <div class="pstack">
+              <span>Laravel</span><span>MySQL</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="pcard" data-reveal data-delay="60">
+          <div class="pcard-img pcard-slider" id="slider6" onclick="cycleSlide('slider6')" title="Klik untuk ganti foto"
+            role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' ')cycleSlide('slider6')">
+            <img src="assets/proyek6/ta.png" alt="Foto Proyek 6" class="slide-img active" />
+            <img src="assets/proyek6/ta1.png" alt="Foto Proyek 6" class="slide-img" />
+            <div class="slide-dots">
+              <span class="dot active" data-i="0"></span>
+              <span class="dot" data-i="1"></span>
+            </div>
+          </div>
+          <div class="pcard-body">
+            <div class="pcard-meta">
+              <span class="ptag">Web</span>
+              <span class="pyr">2026</span>
+            </div>
+            <h3>SariAsianFood</h3>
+            <p>Sistem Informasi Manajemen Produksi yang mengintegrasikan pengelolaan stok,
+              bahan produksi, proses produksi, dan transaksi penjualan. Dilengkapi AI Chatbot yang terintegrasi dengan
+              database untuk memungkinkan pengguna berinteraksi dengan data sistem melalui percakapan, seperti
+              menanyakan informasi stok, status bahan, dan data transaksi secara real-time.</p>
+            <div class="pstack">
+              <span>Laravel</span><span>MySQL</span><span>Gemini API</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ── KONTAK ── -->
+    <section id="kontak" class="sec sec-alt">
+      <div class="sec-head" data-reveal>
+        <span class="sec-tag">04</span>
+        <h2>Kontak</h2>
+      </div>
+      <p class="kontak-sub" data-reveal>Ayo Terhubung!</p>
+      <div class="kontak-list" data-reveal data-delay="60">
+        <a href="mailto:farhannugroho04@gmail.com" class="klink">
+          <span class="klink-icon">✉</span>
+          <span class="klink-val">Email</span>
+          <span class="klink-arr">→</span>
+        </a>
+        <a href="https://github.com/HanNewbie" target="_blank" rel="noopener" class="klink">
+          <span class="klink-icon">⌥</span>
+          <span class="klink-val">GitHub</span>
+          <span class="klink-arr">→</span>
+        </a>
+        <a href="https://linkedin.com/in/farhan-dn" target="_blank" rel="noopener" class="klink">
+          <span class="klink-icon" style="font-size:.75rem;font-weight:700">in</span>
+          <span class="klink-val">LinkedIn</span>
+          <span class="klink-arr">→</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <span>Farhan Dwi Nugroho</span>
+    <span>© <span id="yr"></span></span>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
