@@ -77,7 +77,7 @@ links.querySelectorAll('a').forEach(a => {
 ═══════════════════════════════════════ */
 const typedEl = document.getElementById('typedText');
 
-const roles = ['IT Enthusiast'];
+const roles = ['IT Enthusiast', 'System Analyst', 'Web Developer'];
 
 let ri = 0, ci = 0, del = false;
 
